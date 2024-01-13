@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website Renz Ledesma</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <style>
+        body{
+    background: linear-gradient(45deg,#0f0a0a, white);
+    height: 100vh;
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 10%;
+}
+.header a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    color: black;
+    text-decoration: none;
+}
+.header .logo{
+    font-size: 20px;
+    font-weight: 600;
+}
+.header .navbar a{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 35px;
+    position: relative;
+    padding: 10px 15px;
+    z-index: 1;
+}
+.header .navbar a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: white;
+    box-shadow: 0 0 5px #0f0a0a, inset 0 0 5px #0f0a0a;
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    z-index: -1;
+    scale: 0;
+}
+.navbar a:hover::before{
+    scale: 1;
+}
+    </style>
     <header class="header">
     <a href="#" class="logo">Renz</a>
     <nav class="navbar">
