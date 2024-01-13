@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Marvel.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Clone</title>
+</head>
+<body>
+    <style>
+        #marvel {
+            width: 960px;
+            margin: 0 auto;
+        }
+        #links, #Marvelinfo, #featured {
+            height: 400vh;
+            float: left;
+        }
+        #links {
+           width: calc(20% - 10px);
+           border-right: 1px solid gray;
+        }
+        #Marvelinfo {
+           width: calc(60% - 60px);
+           padding: 0 30px;
+        }
+        #featured {
+            width: calc(20% - 10px);
+            border-left: 1px solid gray
+        }
+        #video {
+            width: 500px;
+        }
+    </style>
+    <div id="marvel">
+        <div id="links" class="sidebar" style="text-align: center;">
+            <img src="Captain america.jpg" style="height: 100px; width: 100px; display: block; margin: 0 auto; border-radius: 100%;" alt="This is an image of profile">
+            <h1 style="font-size: 19px;">Steve Rogers</h1><br>
+            <hr>
+            <a href="https://www.marvel.com/">Website Home</a><br>
+            <hr>
+            <a href="https://marvelblog.com/">Website Blog</a><br>
+            <hr>
+            <a href="https://www.marvel.com/corporate/about">About Marvel</a><br>
+            <hr>
+            <a href="https://www.marvel.com/corporate/about">Contact Marvel</a><br>
+            <hr>
+            <a href="Marvel Song.html">Marvel Song</a>
+            <hr>
+            <a href="Character.html">Marvel Character</a>
+            <hr>
+        </div>
+        <div id="Marvelinfo" class="content">
+            <h2>Marvel Clone Site!</h2>
+            <i>By: Christian Renz Ledesma</i><br><br>
+            <img src="MCU.jpg" style="width: 120px; height: 120px; display: block; float: left; margin-right: 15px; margin-bottom: 15px;" alt="image">
+            <p style="text-indent: 50px; text-align: justify;">
+                The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics.
+            </p>
+            <p style="text-indent: 50px; text-align: justify;">
+                The Marvel Cinematic Universe is a collection of movies and television series that tell a singular narrative related to Marvel characters, settings and stories. The MCU is a product from Disney and Marvel that brings us heroes from Black Panther and Doctor Strange to Spider-Man and Iron Man.
+            </p>
+            <div>
+                <h1 style="text-align: center;">Marvel Studios Latest Video</Video></h1>
+                <video controls id="video">
+                    <source src="Video 1.mp4" type="video/mp4">
+                </video>
+                <h1>Echo Full Clip</h1>
+                <video controls id="video">
+                    <source src="Video 2.mp4" type="video/mp4">
+                </video>
+                <h1 style="font-size: 20px;">A look into the future | marvel What...if?</h1>
+            </div>
+        </div>
+        <div id="featured" style="text-align: center;" class="sidebar">
+             <h2>Featured</h2>
+             <b>Echo only on Disney+</b><br><br>
+             <div style="text-align: left; padding: 0 10px;"> 
+                <img src="Echo.jpg" style="display: block; width: calc(100% - 30px); margin: 0 auto;" alt="This is an image of Echo">
+                <a href="https://www.apps.disneyplus.com/ph/shows/echo/1260157856?filters=content_type%3Dshow_clips"><h1 style="text-align: center; font-size: 19px;">Watch this Series?</h1></a><hr>
+                <h3 style="text-align: center;">Other Movies</h3>
+                <img src="Phase 1.jpg" style="height: 100px; width: 100px; display: block; margin: auto;" alt="This is an image of Phase 1">
+                <a href="https://marvelcinematicuniverse.fandom.com/wiki/Phase_One"><h2 style="text-align: center; font-size: 19px;">Phase 1</h2></a><hr><br>
+                <img src="Phase 2.jpg"  style="height: 100px; width: 100px; display: block; margin: auto;" alt="This is an image of Phase 2">
+                <a href="https://marvelcinematicuniverse.fandom.com/wiki/Phase_Two"><h1 style="text-align: center; font-size: 19px;">Phase 2</h1></a><hr><br>
+                <img src="Phase 3.jpg" style="height: 100px; width: 100px; display: block; margin: auto;" alt="This is an image of Phase 3">
+                <a href="https://marvelcinematicuniverse.fandom.com/wiki/Phase_Three"><h1 style="text-align: center; font-size: 19px;">Phase 3</h1></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
